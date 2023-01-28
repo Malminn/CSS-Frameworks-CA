@@ -1,5 +1,16 @@
 {
   "dependencies": {
-    "bootstrap": "^5.2.3"
-  }
+    "bootstrap": "^5.2.3",
+    "live": "^0.1.25-beta.0",
+    "server": "^1.0.38"
+  },
+  "devDependencies": {
+    "sass": "^1.57.1"
+  },
+  
+    "scripts": {
+      "build": "sass src/scss:dist/css",
+      "watch": "sass --watch src/scss:dist/css & live-server"},
+
+  
 }
